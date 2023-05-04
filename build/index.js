@@ -1,7 +1,8 @@
 "use strict";
 //classes
+//data modifiers - public, private[só a classe enxerga], protected[classes e subclasses]
 class Character {
-    constructor(stregth, skill) {
+    constructor(/*name: string,*/ stregth, skill) {
         // this.name = name;
         this.stregth = stregth;
         this.skill = skill;
@@ -11,4 +12,4 @@ class Character {
     }
 }
 const p1 = new Character(10, 98);
-console.log(p1);
+p1.attack();

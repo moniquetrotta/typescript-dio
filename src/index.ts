@@ -1,10 +1,12 @@
 //classes
+//data modifiers - public, private[só a classe enxerga], protected[classes e subclasses]
+
 class Character {
-  name?: string; //o nome pode ser opcional
+  private name?: string; //o nome pode ser opcional
   stregth: number;
   skill: number;
 
-  constructor( stregth: number, skill: number){
+  constructor( /*name: string,*/ stregth: number, skill: number){
   // this.name = name;
   this.stregth =  stregth;
   this.skill = skill;
