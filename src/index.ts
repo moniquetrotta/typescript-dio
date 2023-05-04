@@ -1,4 +1,9 @@
-let dado: string = "Niqs";
-let dado1: string = "Ada";
-console.log(dado);
-console.log(dado1);
+//decorators
+function ExibirNome(target: any){
+  console.log(target);
+}
+@ExibirNome
+class Funcionario {}
+
+@ExibirNome
+class Quincas{}
