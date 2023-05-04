@@ -38,4 +38,4 @@ class Pessoa implements robot2 {
 }
 
 const p = new Pessoa(1, "gutsman")
-console.log(p.sayHello());
+console.log(p.sayHello()); 
